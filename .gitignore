@@ -1,0 +1,15 @@
+# Don't track virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# Don't track credentials or secrets
+keys/
+.env
+
+# Don't track system/editor files
+.vscode/
+.idea/
+
+# Output files
+*.docx
