@@ -2,7 +2,7 @@ from pathlib import Path
 from attendance.attendance_extractor import extract_attendance
 
 # Path to your image
-image_path = Path("attendance/sample_attendance.jpg")
+image_path = Path("attendance/sample_attendance.jpeg")
 
 # Run extraction
 attendance = extract_attendance(image_path)
